@@ -1,1 +1,1 @@
-# scouts_website
+Website for scouts project
