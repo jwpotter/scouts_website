@@ -13,69 +13,76 @@ body {
     align-items: center;
     background-color: #f0f0f0;
     /* #004851 scout green*/
-    padding: 1em;
+    padding: 0.75rem;
 }
 
 .header-img {
-    padding-right: 40px;
-    width: 100px;
+    padding-right: 2rem;
+    width: 90px;
 }
 
 .header-text {
     display: flex;
     flex-direction: column;
-    /* color: #7414dc; */
 }
 
 .header-title {
-    font-size: 3em;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .header-subtitle {
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 .main {
-    margin: auto;
     flex: 1;
-    max-width: 75%;
+    margin: auto;
 }
 
 .banner {
-    margin-top: 3rem;
+    margin: 2.5rem;
     background-color: #f0f0f0;
     border-radius: 25px;
     text-align: center;
     color: #7414dc;
     font-family: 'Indie Flower', cursive;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: bold;
     transition: ease 1s;
 }
+.banner-img{
+    width: 75%;
+    border-radius: 25px;
+}
 
 .column-wrapper {
-    justify-self: center;
     display: flex;
 }
 
 .column {
     flex: 1;
-    margin: 3em;
-    padding: 2em;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin: 2rem;
     background-color: #f0f0f0;
     border-radius: 25px;
 }
 
+.details {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 .footer {
     flex: 0;
-    display: flex;
     background-color: #f0f0f0;
     padding: 1em;
 }
 
 .footer-text {
-    flex: 1;
     color: grey;
     margin-left: auto;
     font-size: 0.75em;
